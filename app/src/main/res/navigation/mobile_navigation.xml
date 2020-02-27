@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_achievements">
+
+    <fragment
+        android:id="@+id/nav_achievements"
+        android:name="com.example.mycoach.ui.achievements.AchievementsFragment"
+        android:label="@string/menu_achievements"
+        tools:layout="@layout/fragment_achievements" />
+
+    <fragment
+        android:id="@+id/nav_training_machines"
+        android:name="com.example.mycoach.ui.traning_machines.TrainingMachinesFragment"
+        android:label="@string/menu_traning_machines"
+        tools:layout="@layout/fragment_training_machines" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.mycoach.ui.schedule.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.mycoach.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_theory"
+        android:name="com.example.mycoach.ui.theory.TheoryFragment"
+        android:label="@string/menu_theory"
+        tools:layout="@layout/fragment_theory" />
+
+    <fragment
+        android:id="@+id/nav_signOut"
+        android:name="com.example.mycoach.ui.send.SignOutFragment"
+        android:label="@string/menu_signOut"
+        tools:layout="@layout/fragment_sign_out" />
+
+</navigation>

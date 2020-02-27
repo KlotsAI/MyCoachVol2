@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521769872916",
+    "firebase_url": "https://mycoachregistr.firebaseio.com",
+    "project_id": "mycoachregistr",
+    "storage_bucket": "mycoachregistr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521769872916:android:39a42fd76c094510a60101",
+        "android_client_info": {
+          "package_name": "com.example.mycoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521769872916-ugs5r4n0gcol6nb8a2mkn19d45lfq0lg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycoach",
+            "certificate_hash": "00b0bc4505d08c00c7dd2550d51be9d46c0fcc84"
+          }
+        },
+        {
+          "client_id": "521769872916-fhnloqp67c4578ipa3j4djbbibsa3u4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2q9DhL3L9bv5ddYOBwhJqnvsnEbGU1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521769872916-fhnloqp67c4578ipa3j4djbbibsa3u4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

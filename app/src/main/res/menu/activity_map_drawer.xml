@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_achievements"
+            android:title="Достижения" />
+           <!-- android:icon="@drawable/ic_menu_camera"-->
+
+        <item
+            android:id="@+id/nav_training_machines"
+            android:title="Тренажеры" />
+           <!-- android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="Расписание" />
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+
+        <item
+            android:id="@+id/nav_theory"
+            android:title="Теория" />
+           <!-- android:icon="@drawable/ic_menu_share"-->
+
+
+        <item
+            android:id="@+id/nav_tools"
+            android:title="@string/menu_tools" />
+            <!--android:icon="@drawable/ic_menu_manage"-->
+        <item
+            android:id="@+id/nav_signOut"
+            android:title="Выйти" />
+
+
+    </group>
+
+  <!--  <item android:title="Communicate">-->
+        <!--<menu>
+            &lt;!&ndash;<item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />&ndash;&gt;
+           &lt;!&ndash; <item
+                android:id="@+id/nav_send"
+                android:title="Выйти" />&ndash;&gt;
+                &lt;!&ndash;android:icon="@drawable/ic_menu_send"&ndash;&gt;
+
+        </menu>-->
+    <!--</item>-->
+
+</menu>

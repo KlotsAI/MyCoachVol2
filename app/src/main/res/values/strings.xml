@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Мой тренер</string>
+    <string name="app_in_name">Мой тренер</string>
+    <string name="app_name_after">Регистрация</string>
+    <string name="txt_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_achievements">Достижения</string>
+    <string name="menu_traning_machines">Тренажеры</string>
+    <string name="menu_schedule">Расписание</string>
+    <string name="menu_tools">Настройки</string>
+    <string name="menu_theory">Теория</string>
+    <string name="menu_signOut">Выйти</string>
+</resources>
